@@ -8,7 +8,6 @@
 
 - HTML & Css
 - React
-- 
 
 ## Live Demo (if available)
 
