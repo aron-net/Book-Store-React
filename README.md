@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magician project
+# Book Store React
 
-> Functional Math Calculator
+> Book Store with react accept input for title and author.
 
 ## Built With
 
