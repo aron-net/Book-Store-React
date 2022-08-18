@@ -1,5 +1,10 @@
+import Category from '../Book/Category';
+
 const Categories = () => (
-  <button type="button">Check status</button>
+  <div>
+    <Category />
+    <button type="button">Check status</button>
+  </div>
 );
 
 export default Categories;
