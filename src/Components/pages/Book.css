@@ -1,17 +1,17 @@
 ul {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 li {
-    list-style-type: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    border: 2px solid rgb(206, 166, 166);
-    justify-content: space-between;
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    align-items: baseline;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 2px solid rgb(206, 166, 166);
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  align-items: baseline;
 }
