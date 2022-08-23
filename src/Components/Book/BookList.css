@@ -1,0 +1,12 @@
+h2 {
+    text-align: left;
+    padding-left: 15px;
+}
+
+p {
+    align-items: center;
+}
+
+button[type=button] {
+    width: 25%;
+}
