@@ -1,0 +1,26 @@
+.ar {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  width: 95%;
+}
+
+input[type=text] {
+  width: 35%;
+  padding: 10px;
+  margin: 30px;
+}
+
+input::placeholder {
+  text-align: left;
+}
+
+button[type=submit] {
+  width: 15%;
+  padding: 10px;
+}

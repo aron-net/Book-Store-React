@@ -1,5 +1,6 @@
 import { useDispatch } from 'react-redux';
 import { addBook } from '../../redux/Book/book';
+import './NewBook.css';
 
 const NewBook = () => {
   const dispatch = useDispatch();
@@ -10,7 +11,7 @@ const NewBook = () => {
     dispatch(addBook(title, author));
   };
   return (
-    <div>
+    <div className="ar">
       <h2>ADD NEW BOOK</h2>
       <form onSubmit={addBookHandler}>
         <input onChange={() => {}} type="text" placeholder="Book title" />
