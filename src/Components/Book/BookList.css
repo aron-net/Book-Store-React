@@ -7,6 +7,7 @@ p {
   align-items: center;
 }
 
-button[type=button] {
-  width: 25%;
+.aro {
+  width: 35%;
+  margin-left: 90px;
 }
