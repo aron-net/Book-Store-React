@@ -1,24 +1,34 @@
+import { useState } from 'react';
 import { useDispatch } from 'react-redux';
+import { v4 as rid } from 'uuid';
 import { addBook } from '../../redux/Book/book';
 import './NewBook.css';
 
 const NewBook = () => {
   const dispatch = useDispatch();
+  const [titleName, setTitle] = useState('');
+  const [authorName, setAuthor] = useState('');
   const addBookHandler = (e) => {
     e.preventDefault();
-    const title = e.target[0].value;
-    const author = e.target[1].value;
-    dispatch(addBook(title, author));
+    const book = {
+      id: rid(),
+      title: titleName,
+      author: authorName,
+      category: 'not categorized yet',
+    };
+    dispatch(addBook(book));
+    setTitle('');
+    setAuthor('');
   };
   return (
-    <div className="ar">
+    <section className="ar">
       <h2>ADD NEW BOOK</h2>
       <form onSubmit={addBookHandler}>
-        <input onChange={() => {}} type="text" placeholder="Book title" />
-        <input onChange={() => {}} type="text" placeholder="Author" />
+        <input type="text" value={titleName} onInput={(e) => setTitle(e.target.value)} placeholder="Book title" required="" />
+        <input type="text" value={authorName} onInput={(e) => setAuthor(e.target.value)} placeholder="Author" required="" />
         <button type="submit">ADD BOOK</button>
       </form>
-    </div>
+    </section>
   );
 };
 

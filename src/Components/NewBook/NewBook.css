@@ -1,5 +1,5 @@
 .ar {
-  width: 60%;
+  width: 85%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -7,11 +7,11 @@
 }
 
 form {
-  width: 95%;
+  width: 75%;
 }
 
 input[type=text] {
-  width: 35%;
+  width: 30%;
   padding: 10px;
   margin: 30px;
 }

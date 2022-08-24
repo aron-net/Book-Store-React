@@ -11,6 +11,7 @@ li {
   border: 2px solid rgb(206, 166, 166);
   justify-content: space-between;
   width: 80%;
+  gap: 50px;
   margin: auto;
   text-align: center;
   align-items: baseline;
