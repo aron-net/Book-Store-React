@@ -9,7 +9,7 @@ form {
   margin-top: 20px;
   display: flex;
   gap: 22px;
-  justify-content: baseline;
+  align-items: baseline;
 }
 
 .form-title {
