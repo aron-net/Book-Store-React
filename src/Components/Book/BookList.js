@@ -48,7 +48,7 @@ const BookList = (props) => {
             {`Chapter ${randomChapter}`}
           </p>
         </div>
-        <div><button className="primary-button" type="button">UPDATE PROGRESS</button></div>
+        <button className="primary-button" type="button">UPDATE PROGRESS</button>
       </div>
     </li>
   );

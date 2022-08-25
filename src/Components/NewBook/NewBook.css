@@ -9,6 +9,7 @@ form {
   margin-top: 20px;
   display: flex;
   gap: 22px;
+  justify-content: baseline;
 }
 
 .form-title {
@@ -60,8 +61,8 @@ input:focus {
 
 button[type=submit] {
   cursor: pointer;
-  width: 25%;
-  padding: 12px;
+  width: 20%;
+  padding: 10px;
   border-radius: 3px;
   background-color: #0290ff;
   border: none;
