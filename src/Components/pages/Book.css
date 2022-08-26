@@ -5,14 +5,21 @@ ul {
 }
 
 li {
-  list-style-type: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  border: 2px solid rgb(206, 166, 166);
-  justify-content: space-between;
-  width: 80%;
-  gap: 50px;
-  margin: auto;
-  text-align: center;
-  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  width: 74rem;
+  height: 7.625rem;
+  margin: 2.313rem 4.25rem 0;
+  padding: 2rem 3.188rem 1.625rem 1.688rem;
+  border-radius: 4px;
+  border: solid 1px white;
+  background-color: #fff;
+  gap: 5px;
+}
+
+.horizontal-divider {
+  height: 0.125rem;
+  background-color: #e8e8e8;
+  width: 100%;
+  margin: 2.5rem 0 1.813rem;
 }

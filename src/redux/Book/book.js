@@ -86,13 +86,15 @@ export const loadBook = createAsyncThunk(LOAD, async () => fetch(`${url}/books`)
     const books = [];
     Object.entries(json).forEach((key) => {
       const uuid = key[0];
-      const { title, author } = key[1][0];
-      const book = { id: uuid, title, author };
+      const { title, author, category } = key[1][0];
+      const book = {
+        id: uuid, title, author, category,
+      };
       books.push(book);
     });
     return { value: books };
   })
-  .catch((error) => error));
+  .catch((error) => ({ value: error })));
 export const addBook = createAsyncThunk(ADD, async (book) => fetch(`${url}/books`, {
   method: 'POST',
   body: JSON.stringify({

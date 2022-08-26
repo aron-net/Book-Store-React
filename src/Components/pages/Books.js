@@ -12,12 +12,21 @@ const Book = () => {
     vitor(loadBook());
   }, []);
   return (
-    <ul className="art">
-      {item.item.map((data) => (
-        <BookList key={data.id} id={data.id} title={data.title} author={data.author} />
-      ))}
+    <>
+      <ul>
+        {item.item.map((data) => (
+          <BookList
+            key={data.id}
+            id={data.id}
+            title={data.title}
+            author={data.author}
+            category={data.category}
+          />
+        ))}
+      </ul>
+      <div className="horizontal-divider" />
       <NewBook />
-    </ul>
+    </>
   );
 };
 
