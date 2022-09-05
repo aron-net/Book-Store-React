@@ -11,7 +11,7 @@
 
 ## Live Demo (if available)
 
- [Live Demo Link](https://aron-helu.github.io/)
+ [Live Demo Link](https://aron-helu.github.io/Book-Store-React/)
 
 ## Quick view
 
