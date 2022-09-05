@@ -13,7 +13,9 @@
 
  [Live Demo Link](on progres)
 
+## Quick view
 
+<img src="./oie_KbbidSgbQPl3.png" alt="quick-view-img">
 ## Getting Started
 - Make sure you have node installed on your local machine.
 
